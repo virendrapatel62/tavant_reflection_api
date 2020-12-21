@@ -46,6 +46,10 @@ public class ConcreteClass extends BaseClass implements BaseInterface {
 
 	class ConcreteClassDefaultClass {
 	}
+	
+	public String getPrivateString() {
+		return privateString;
+	}
 
 	// member enum
 	enum ConcreteClassDefaultEnum {
